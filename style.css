@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    color: #c2c2c2;
+    min-height: 100%;;
+}
+
+form {
+    /*max-width: 1100px;*/
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+input[type="search"] {
+    width: 93%;
+    font-size: 90px;
+    background-color: #f1f1f1;
+    color: #ec5a62;
+    border: none;
+    outline: none;
+}
+input[type="search"]::-webkit-input-placeholder {
+    color: #c2c2c2;
+    font-weight: 800;
+}
+
+input[type="image"] {
+    height: 85px;
+    vertical-align: bottom;
+}
+
+.container {
+    /*max-width: 1100px;*/
+    width: 100%;
+    padding: 0 8%;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+section {
+    display: inline-block;
+    width: 30%;
+}
+
+.popular {
+    margin: 0 5%;
+}
+
+section h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+} 
+
+.search-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-list a {
+    display: block;
+    background-color: rgba(118, 117, 128, 0.05);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #c2c2c2;
+    transition: all .1s ease-in;
+    cursor: pointer;
+}
+
+.search h3 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    width: 70%;
+    padding-left: 20px;
+}
+
+.search img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.people-list {
+    border-radius: 50%;
+}
+
+a:hover {
+    color: #ec5a62;
+    background-color: rgba(118, 117, 128, 0.1);
+}
