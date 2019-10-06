@@ -47,7 +47,7 @@ input[type="search"]::-webkit-input-placeholder {
 }
 
 input[type="image"] {
-    height: 85px;
+    height: 70px;
     vertical-align: bottom;
 }
 
